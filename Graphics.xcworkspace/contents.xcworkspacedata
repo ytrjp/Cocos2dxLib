@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:README">
+   </FileRef>
+   <FileRef
       location = "group:SimpleGame/SimpleGame.xcodeproj">
    </FileRef>
 </Workspace>
