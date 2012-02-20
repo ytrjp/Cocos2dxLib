@@ -140,6 +140,9 @@
 		DC2EF33114EF90F100B8676B /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC2EF33014EF90F100B8676B /* RootViewController.mm */; };
 		DC2EF33514EF90F100B8676B /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2EF33414EF90F100B8676B /* AppDelegate.cpp */; };
 		DC2EF33814EF90F100B8676B /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2EF33714EF90F100B8676B /* HelloWorldScene.cpp */; };
+		DC9C2C5F14EFED1B00800099 /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9C2C5C14EFED1B00800099 /* Player.png */; };
+		DC9C2C6014EFED1B00800099 /* Projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9C2C5D14EFED1B00800099 /* Projectile.png */; };
+		DC9C2C6114EFED1B00800099 /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9C2C5E14EFED1B00800099 /* Target.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -421,6 +424,9 @@
 		DC2EF33414EF90F100B8676B /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		DC2EF33614EF90F100B8676B /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		DC2EF33714EF90F100B8676B /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		DC9C2C5C14EFED1B00800099 /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Player.png; path = Resources/Player.png; sourceTree = "<group>"; };
+		DC9C2C5D14EFED1B00800099 /* Projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Projectile.png; path = Resources/Projectile.png; sourceTree = "<group>"; };
+		DC9C2C5E14EFED1B00800099 /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Target.png; path = Resources/Target.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -489,6 +495,9 @@
 		DC2EF18D14EF90ED00B8676B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DC9C2C5C14EFED1B00800099 /* Player.png */,
+				DC9C2C5D14EFED1B00800099 /* Projectile.png */,
+				DC9C2C5E14EFED1B00800099 /* Target.png */,
 				DC2EF18E14EF90ED00B8676B /* CloseNormal.png */,
 				DC2EF19014EF90ED00B8676B /* CloseSelected.png */,
 				DC2EF19214EF90ED00B8676B /* Default.png */,
@@ -1083,6 +1092,9 @@
 				DC2EF19F14EF90ED00B8676B /* Icon.png in Resources */,
 				DC2EF1A114EF90ED00B8676B /* Icon@2x.png in Resources */,
 				DC2EF1A414EF90ED00B8676B /* iTunesArtwork in Resources */,
+				DC9C2C5F14EFED1B00800099 /* Player.png in Resources */,
+				DC9C2C6014EFED1B00800099 /* Projectile.png in Resources */,
+				DC9C2C6114EFED1B00800099 /* Target.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1320,6 +1332,7 @@
 				DC2EF33D14EF90F100B8676B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
