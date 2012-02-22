@@ -7,102 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC234FE914F3CCEF00B9E2D0 /* .classpath in Resources */ = {isa = PBXBuildFile; fileRef = DC234F6E14F3CCEF00B9E2D0 /* .classpath */; };
-		DC234FEA14F3CCEF00B9E2D0 /* .project in Resources */ = {isa = PBXBuildFile; fileRef = DC234F6F14F3CCEF00B9E2D0 /* .project */; };
-		DC234FEB14F3CCEF00B9E2D0 /* AndroidManifest.xml in Resources */ = {isa = PBXBuildFile; fileRef = DC234F7014F3CCEF00B9E2D0 /* AndroidManifest.xml */; };
-		DC234FEC14F3CCEF00B9E2D0 /* ant.properties in Resources */ = {isa = PBXBuildFile; fileRef = DC234F7114F3CCEF00B9E2D0 /* ant.properties */; };
-		DC234FED14F3CCEF00B9E2D0 /* R$attr.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F7814F3CCEF00B9E2D0 /* R$attr.class */; };
-		DC234FEE14F3CCEF00B9E2D0 /* R$drawable.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F7914F3CCEF00B9E2D0 /* R$drawable.class */; };
-		DC234FEF14F3CCEF00B9E2D0 /* R$id.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F7A14F3CCEF00B9E2D0 /* R$id.class */; };
-		DC234FF014F3CCEF00B9E2D0 /* R$layout.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F7B14F3CCEF00B9E2D0 /* R$layout.class */; };
-		DC234FF114F3CCEF00B9E2D0 /* R$string.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F7C14F3CCEF00B9E2D0 /* R$string.class */; };
-		DC234FF214F3CCEF00B9E2D0 /* R.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F7D14F3CCEF00B9E2D0 /* R.class */; };
-		DC234FF314F3CCEF00B9E2D0 /* SimpleGame.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F7E14F3CCEF00B9E2D0 /* SimpleGame.class */; };
-		DC234FF414F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8114F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.class */; };
-		DC234FF514F3CCEF00B9E2D0 /* Cocos2dxActivity$1.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8214F3CCEF00B9E2D0 /* Cocos2dxActivity$1.class */; };
-		DC234FF614F3CCEF00B9E2D0 /* Cocos2dxActivity$2.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8314F3CCEF00B9E2D0 /* Cocos2dxActivity$2.class */; };
-		DC234FF714F3CCEF00B9E2D0 /* Cocos2dxActivity.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8414F3CCEF00B9E2D0 /* Cocos2dxActivity.class */; };
-		DC234FF814F3CCEF00B9E2D0 /* Cocos2dxBitmap$TextProperty.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8514F3CCEF00B9E2D0 /* Cocos2dxBitmap$TextProperty.class */; };
-		DC234FF914F3CCEF00B9E2D0 /* Cocos2dxBitmap.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8614F3CCEF00B9E2D0 /* Cocos2dxBitmap.class */; };
-		DC234FFA14F3CCEF00B9E2D0 /* Cocos2dxEditText.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8714F3CCEF00B9E2D0 /* Cocos2dxEditText.class */; };
-		DC234FFB14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$1.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8814F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$1.class */; };
-		DC234FFC14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$10.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8914F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$10.class */; };
-		DC234FFD14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$11.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8A14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$11.class */; };
-		DC234FFE14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$12.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8B14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$12.class */; };
-		DC234FFF14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$2.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8C14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$2.class */; };
-		DC23500014F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$3.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8D14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$3.class */; };
-		DC23500114F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$4.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8E14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$4.class */; };
-		DC23500214F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$5.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F8F14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$5.class */; };
-		DC23500314F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$6.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F9014F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$6.class */; };
-		DC23500414F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$7.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F9114F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$7.class */; };
-		DC23500514F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$8.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F9214F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$8.class */; };
-		DC23500614F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$9.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F9314F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$9.class */; };
-		DC23500714F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F9414F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.class */; };
-		DC23500814F3CCEF00B9E2D0 /* Cocos2dxMusic.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F9514F3CCEF00B9E2D0 /* Cocos2dxMusic.class */; };
-		DC23500914F3CCEF00B9E2D0 /* Cocos2dxRenderer.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F9614F3CCEF00B9E2D0 /* Cocos2dxRenderer.class */; };
-		DC23500A14F3CCEF00B9E2D0 /* Cocos2dxSound.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F9714F3CCEF00B9E2D0 /* Cocos2dxSound.class */; };
-		DC23500B14F3CCEF00B9E2D0 /* Cocos2dxTypefaces.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F9814F3CCEF00B9E2D0 /* Cocos2dxTypefaces.class */; };
-		DC23500C14F3CCEF00B9E2D0 /* DialogMessage.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F9914F3CCEF00B9E2D0 /* DialogMessage.class */; };
-		DC23500D14F3CCEF00B9E2D0 /* TextInputWraper.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F9A14F3CCEF00B9E2D0 /* TextInputWraper.class */; };
-		DC23500E14F3CCEF00B9E2D0 /* SimpleGame.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234F9E14F3CCEF00B9E2D0 /* SimpleGame.class */; };
-		DC23500F14F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FA114F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.class */; };
-		DC23501014F3CCEF00B9E2D0 /* Cocos2dxActivity$1.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FA214F3CCEF00B9E2D0 /* Cocos2dxActivity$1.class */; };
-		DC23501114F3CCEF00B9E2D0 /* Cocos2dxActivity$2.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FA314F3CCEF00B9E2D0 /* Cocos2dxActivity$2.class */; };
-		DC23501214F3CCEF00B9E2D0 /* Cocos2dxActivity.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FA414F3CCEF00B9E2D0 /* Cocos2dxActivity.class */; };
-		DC23501314F3CCEF00B9E2D0 /* Cocos2dxBitmap$TextProperty.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FA514F3CCEF00B9E2D0 /* Cocos2dxBitmap$TextProperty.class */; };
-		DC23501414F3CCEF00B9E2D0 /* Cocos2dxBitmap.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FA614F3CCEF00B9E2D0 /* Cocos2dxBitmap.class */; };
-		DC23501514F3CCEF00B9E2D0 /* Cocos2dxEditText.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FA714F3CCEF00B9E2D0 /* Cocos2dxEditText.class */; };
-		DC23501614F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$1.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FA814F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$1.class */; };
-		DC23501714F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$10.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FA914F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$10.class */; };
-		DC23501814F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$11.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FAA14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$11.class */; };
-		DC23501914F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$12.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FAB14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$12.class */; };
-		DC23501A14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$2.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FAC14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$2.class */; };
-		DC23501B14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$3.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FAD14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$3.class */; };
-		DC23501C14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$4.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FAE14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$4.class */; };
-		DC23501D14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$5.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FAF14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$5.class */; };
-		DC23501E14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$6.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FB014F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$6.class */; };
-		DC23501F14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$7.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FB114F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$7.class */; };
-		DC23502014F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$8.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FB214F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$8.class */; };
-		DC23502114F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$9.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FB314F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$9.class */; };
-		DC23502214F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FB414F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.class */; };
-		DC23502314F3CCEF00B9E2D0 /* Cocos2dxMusic.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FB514F3CCEF00B9E2D0 /* Cocos2dxMusic.class */; };
-		DC23502414F3CCEF00B9E2D0 /* Cocos2dxRenderer.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FB614F3CCEF00B9E2D0 /* Cocos2dxRenderer.class */; };
-		DC23502514F3CCEF00B9E2D0 /* Cocos2dxSound.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FB714F3CCEF00B9E2D0 /* Cocos2dxSound.class */; };
-		DC23502614F3CCEF00B9E2D0 /* Cocos2dxTypefaces.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FB814F3CCEF00B9E2D0 /* Cocos2dxTypefaces.class */; };
-		DC23502714F3CCEF00B9E2D0 /* DialogMessage.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FB914F3CCEF00B9E2D0 /* DialogMessage.class */; };
-		DC23502814F3CCEF00B9E2D0 /* TextInputWraper.class in Resources */ = {isa = PBXBuildFile; fileRef = DC234FBA14F3CCEF00B9E2D0 /* TextInputWraper.class */; };
-		DC23502914F3CCEF00B9E2D0 /* build.xml in Resources */ = {isa = PBXBuildFile; fileRef = DC234FBC14F3CCEF00B9E2D0 /* build.xml */; };
 		DC23502A14F3CCEF00B9E2D0 /* build_native.sh in Resources */ = {isa = PBXBuildFile; fileRef = DC234FBD14F3CCEF00B9E2D0 /* build_native.sh */; };
-		DC23502B14F3CCEF00B9E2D0 /* R.java in Sources */ = {isa = PBXBuildFile; fileRef = DC234FC214F3CCEF00B9E2D0 /* R.java */; };
 		DC23502C14F3CCEF00B9E2D0 /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = DC234FC414F3CCEF00B9E2D0 /* Android.mk */; };
 		DC23502D14F3CCEF00B9E2D0 /* Application.mk in Resources */ = {isa = PBXBuildFile; fileRef = DC234FC514F3CCEF00B9E2D0 /* Application.mk */; };
 		DC23502E14F3CCEF00B9E2D0 /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = DC234FC714F3CCEF00B9E2D0 /* Android.mk */; };
-		DC23502F14F3CCEF00B9E2D0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC234FC814F3CCEF00B9E2D0 /* main.cpp */; };
-		DC23503014F3CCEF00B9E2D0 /* list.sh in Resources */ = {isa = PBXBuildFile; fileRef = DC234FC914F3CCEF00B9E2D0 /* list.sh */; };
-		DC23503114F3CCEF00B9E2D0 /* local.properties in Resources */ = {isa = PBXBuildFile; fileRef = DC234FCA14F3CCEF00B9E2D0 /* local.properties */; };
-		DC23503214F3CCEF00B9E2D0 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = DC234FCB14F3CCEF00B9E2D0 /* makefile */; };
-		DC23503314F3CCEF00B9E2D0 /* proguard.cfg in Resources */ = {isa = PBXBuildFile; fileRef = DC234FCC14F3CCEF00B9E2D0 /* proguard.cfg */; };
-		DC23503414F3CCEF00B9E2D0 /* project.properties in Resources */ = {isa = PBXBuildFile; fileRef = DC234FCD14F3CCEF00B9E2D0 /* project.properties */; };
-		DC23503514F3CCEF00B9E2D0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC234FD014F3CCEF00B9E2D0 /* icon.png */; };
-		DC23503614F3CCEF00B9E2D0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC234FD214F3CCEF00B9E2D0 /* icon.png */; };
-		DC23503714F3CCEF00B9E2D0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC234FD414F3CCEF00B9E2D0 /* icon.png */; };
-		DC23503814F3CCEF00B9E2D0 /* game_demo.xml in Resources */ = {isa = PBXBuildFile; fileRef = DC234FD614F3CCEF00B9E2D0 /* game_demo.xml */; };
-		DC23503914F3CCEF00B9E2D0 /* strings.xml in Resources */ = {isa = PBXBuildFile; fileRef = DC234FD814F3CCEF00B9E2D0 /* strings.xml */; };
-		DC23503A14F3CCEF00B9E2D0 /* SimpleGame.java in Sources */ = {isa = PBXBuildFile; fileRef = DC234FDD14F3CCEF00B9E2D0 /* SimpleGame.java */; };
-		DC23503B14F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.java in Sources */ = {isa = PBXBuildFile; fileRef = DC234FE014F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.java */; };
-		DC23503C14F3CCEF00B9E2D0 /* Cocos2dxActivity.java in Sources */ = {isa = PBXBuildFile; fileRef = DC234FE114F3CCEF00B9E2D0 /* Cocos2dxActivity.java */; };
-		DC23503D14F3CCEF00B9E2D0 /* Cocos2dxBitmap.java in Sources */ = {isa = PBXBuildFile; fileRef = DC234FE214F3CCEF00B9E2D0 /* Cocos2dxBitmap.java */; };
-		DC23503E14F3CCEF00B9E2D0 /* Cocos2dxEditText.java in Sources */ = {isa = PBXBuildFile; fileRef = DC234FE314F3CCEF00B9E2D0 /* Cocos2dxEditText.java */; };
-		DC23503F14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.java in Sources */ = {isa = PBXBuildFile; fileRef = DC234FE414F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.java */; };
-		DC23504014F3CCEF00B9E2D0 /* Cocos2dxMusic.java in Sources */ = {isa = PBXBuildFile; fileRef = DC234FE514F3CCEF00B9E2D0 /* Cocos2dxMusic.java */; };
-		DC23504114F3CCEF00B9E2D0 /* Cocos2dxRenderer.java in Sources */ = {isa = PBXBuildFile; fileRef = DC234FE614F3CCEF00B9E2D0 /* Cocos2dxRenderer.java */; };
-		DC23504214F3CCEF00B9E2D0 /* Cocos2dxSound.java in Sources */ = {isa = PBXBuildFile; fileRef = DC234FE714F3CCEF00B9E2D0 /* Cocos2dxSound.java */; };
-		DC23504314F3CCEF00B9E2D0 /* Cocos2dxTypefaces.java in Sources */ = {isa = PBXBuildFile; fileRef = DC234FE814F3CCEF00B9E2D0 /* Cocos2dxTypefaces.java */; };
 		DC23504614F3CDF000B9E2D0 /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = DC23504514F3CDF000B9E2D0 /* Android.mk */; };
 		DC23504A14F3E31200B9E2D0 /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = DC23504914F3E31200B9E2D0 /* Android.mk */; };
 		DC23505114F3E33900B9E2D0 /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = DC23504C14F3E33900B9E2D0 /* Android.mk */; };
-		DC23505214F3E33900B9E2D0 /* SimpleAudioEngineJni.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC23504E14F3E33900B9E2D0 /* SimpleAudioEngineJni.cpp */; };
-		DC23505314F3E33900B9E2D0 /* SimpleAudioEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC23505014F3E33900B9E2D0 /* SimpleAudioEngine.cpp */; };
 		DC2EF17D14EF90ED00B8676B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2EF17C14EF90ED00B8676B /* QuartzCore.framework */; };
 		DC2EF17F14EF90ED00B8676B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2EF17E14EF90ED00B8676B /* OpenGLES.framework */; };
 		DC2EF18114EF90ED00B8676B /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2EF18014EF90ED00B8676B /* OpenAL.framework */; };
@@ -242,103 +153,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DC234F6E14F3CCEF00B9E2D0 /* .classpath */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = .classpath; sourceTree = "<group>"; };
-		DC234F6F14F3CCEF00B9E2D0 /* .project */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = .project; sourceTree = "<group>"; };
-		DC234F7014F3CCEF00B9E2D0 /* AndroidManifest.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = AndroidManifest.xml; sourceTree = "<group>"; };
-		DC234F7114F3CCEF00B9E2D0 /* ant.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ant.properties; sourceTree = "<group>"; };
-		DC234F7814F3CCEF00B9E2D0 /* R$attr.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = R$attr.class; sourceTree = "<group>"; };
-		DC234F7914F3CCEF00B9E2D0 /* R$drawable.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = R$drawable.class; sourceTree = "<group>"; };
-		DC234F7A14F3CCEF00B9E2D0 /* R$id.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = R$id.class; sourceTree = "<group>"; };
-		DC234F7B14F3CCEF00B9E2D0 /* R$layout.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = R$layout.class; sourceTree = "<group>"; };
-		DC234F7C14F3CCEF00B9E2D0 /* R$string.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = R$string.class; sourceTree = "<group>"; };
-		DC234F7D14F3CCEF00B9E2D0 /* R.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = R.class; sourceTree = "<group>"; };
-		DC234F7E14F3CCEF00B9E2D0 /* SimpleGame.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = SimpleGame.class; sourceTree = "<group>"; };
-		DC234F8114F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxAccelerometer.class; sourceTree = "<group>"; };
-		DC234F8214F3CCEF00B9E2D0 /* Cocos2dxActivity$1.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxActivity$1.class; sourceTree = "<group>"; };
-		DC234F8314F3CCEF00B9E2D0 /* Cocos2dxActivity$2.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxActivity$2.class; sourceTree = "<group>"; };
-		DC234F8414F3CCEF00B9E2D0 /* Cocos2dxActivity.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxActivity.class; sourceTree = "<group>"; };
-		DC234F8514F3CCEF00B9E2D0 /* Cocos2dxBitmap$TextProperty.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxBitmap$TextProperty.class; sourceTree = "<group>"; };
-		DC234F8614F3CCEF00B9E2D0 /* Cocos2dxBitmap.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxBitmap.class; sourceTree = "<group>"; };
-		DC234F8714F3CCEF00B9E2D0 /* Cocos2dxEditText.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxEditText.class; sourceTree = "<group>"; };
-		DC234F8814F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$1.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$1.class; sourceTree = "<group>"; };
-		DC234F8914F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$10.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$10.class; sourceTree = "<group>"; };
-		DC234F8A14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$11.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$11.class; sourceTree = "<group>"; };
-		DC234F8B14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$12.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$12.class; sourceTree = "<group>"; };
-		DC234F8C14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$2.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$2.class; sourceTree = "<group>"; };
-		DC234F8D14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$3.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$3.class; sourceTree = "<group>"; };
-		DC234F8E14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$4.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$4.class; sourceTree = "<group>"; };
-		DC234F8F14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$5.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$5.class; sourceTree = "<group>"; };
-		DC234F9014F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$6.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$6.class; sourceTree = "<group>"; };
-		DC234F9114F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$7.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$7.class; sourceTree = "<group>"; };
-		DC234F9214F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$8.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$8.class; sourceTree = "<group>"; };
-		DC234F9314F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$9.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$9.class; sourceTree = "<group>"; };
-		DC234F9414F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView.class; sourceTree = "<group>"; };
-		DC234F9514F3CCEF00B9E2D0 /* Cocos2dxMusic.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxMusic.class; sourceTree = "<group>"; };
-		DC234F9614F3CCEF00B9E2D0 /* Cocos2dxRenderer.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxRenderer.class; sourceTree = "<group>"; };
-		DC234F9714F3CCEF00B9E2D0 /* Cocos2dxSound.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxSound.class; sourceTree = "<group>"; };
-		DC234F9814F3CCEF00B9E2D0 /* Cocos2dxTypefaces.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxTypefaces.class; sourceTree = "<group>"; };
-		DC234F9914F3CCEF00B9E2D0 /* DialogMessage.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = DialogMessage.class; sourceTree = "<group>"; };
-		DC234F9A14F3CCEF00B9E2D0 /* TextInputWraper.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = TextInputWraper.class; sourceTree = "<group>"; };
-		DC234F9E14F3CCEF00B9E2D0 /* SimpleGame.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = SimpleGame.class; sourceTree = "<group>"; };
-		DC234FA114F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxAccelerometer.class; sourceTree = "<group>"; };
-		DC234FA214F3CCEF00B9E2D0 /* Cocos2dxActivity$1.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxActivity$1.class; sourceTree = "<group>"; };
-		DC234FA314F3CCEF00B9E2D0 /* Cocos2dxActivity$2.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxActivity$2.class; sourceTree = "<group>"; };
-		DC234FA414F3CCEF00B9E2D0 /* Cocos2dxActivity.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxActivity.class; sourceTree = "<group>"; };
-		DC234FA514F3CCEF00B9E2D0 /* Cocos2dxBitmap$TextProperty.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxBitmap$TextProperty.class; sourceTree = "<group>"; };
-		DC234FA614F3CCEF00B9E2D0 /* Cocos2dxBitmap.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxBitmap.class; sourceTree = "<group>"; };
-		DC234FA714F3CCEF00B9E2D0 /* Cocos2dxEditText.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxEditText.class; sourceTree = "<group>"; };
-		DC234FA814F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$1.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$1.class; sourceTree = "<group>"; };
-		DC234FA914F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$10.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$10.class; sourceTree = "<group>"; };
-		DC234FAA14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$11.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$11.class; sourceTree = "<group>"; };
-		DC234FAB14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$12.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$12.class; sourceTree = "<group>"; };
-		DC234FAC14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$2.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$2.class; sourceTree = "<group>"; };
-		DC234FAD14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$3.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$3.class; sourceTree = "<group>"; };
-		DC234FAE14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$4.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$4.class; sourceTree = "<group>"; };
-		DC234FAF14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$5.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$5.class; sourceTree = "<group>"; };
-		DC234FB014F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$6.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$6.class; sourceTree = "<group>"; };
-		DC234FB114F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$7.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$7.class; sourceTree = "<group>"; };
-		DC234FB214F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$8.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$8.class; sourceTree = "<group>"; };
-		DC234FB314F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$9.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView$9.class; sourceTree = "<group>"; };
-		DC234FB414F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxGLSurfaceView.class; sourceTree = "<group>"; };
-		DC234FB514F3CCEF00B9E2D0 /* Cocos2dxMusic.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxMusic.class; sourceTree = "<group>"; };
-		DC234FB614F3CCEF00B9E2D0 /* Cocos2dxRenderer.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxRenderer.class; sourceTree = "<group>"; };
-		DC234FB714F3CCEF00B9E2D0 /* Cocos2dxSound.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxSound.class; sourceTree = "<group>"; };
-		DC234FB814F3CCEF00B9E2D0 /* Cocos2dxTypefaces.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = Cocos2dxTypefaces.class; sourceTree = "<group>"; };
-		DC234FB914F3CCEF00B9E2D0 /* DialogMessage.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = DialogMessage.class; sourceTree = "<group>"; };
-		DC234FBA14F3CCEF00B9E2D0 /* TextInputWraper.class */ = {isa = PBXFileReference; lastKnownFileType = compiled.javaclass; path = TextInputWraper.class; sourceTree = "<group>"; };
-		DC234FBC14F3CCEF00B9E2D0 /* build.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = build.xml; sourceTree = "<group>"; };
 		DC234FBD14F3CCEF00B9E2D0 /* build_native.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build_native.sh; sourceTree = "<group>"; };
-		DC234FC214F3CCEF00B9E2D0 /* R.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = R.java; sourceTree = "<group>"; };
 		DC234FC414F3CCEF00B9E2D0 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
 		DC234FC514F3CCEF00B9E2D0 /* Application.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Application.mk; sourceTree = "<group>"; };
 		DC234FC714F3CCEF00B9E2D0 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
-		DC234FC814F3CCEF00B9E2D0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		DC234FC914F3CCEF00B9E2D0 /* list.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = list.sh; sourceTree = "<group>"; };
-		DC234FCA14F3CCEF00B9E2D0 /* local.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = local.properties; sourceTree = "<group>"; };
-		DC234FCB14F3CCEF00B9E2D0 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
-		DC234FCC14F3CCEF00B9E2D0 /* proguard.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = proguard.cfg; sourceTree = "<group>"; };
-		DC234FCD14F3CCEF00B9E2D0 /* project.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = project.properties; sourceTree = "<group>"; };
-		DC234FD014F3CCEF00B9E2D0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		DC234FD214F3CCEF00B9E2D0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		DC234FD414F3CCEF00B9E2D0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		DC234FD614F3CCEF00B9E2D0 /* game_demo.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = game_demo.xml; sourceTree = "<group>"; };
-		DC234FD814F3CCEF00B9E2D0 /* strings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = strings.xml; sourceTree = "<group>"; };
-		DC234FDD14F3CCEF00B9E2D0 /* SimpleGame.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SimpleGame.java; sourceTree = "<group>"; };
-		DC234FE014F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxAccelerometer.java; sourceTree = "<group>"; };
-		DC234FE114F3CCEF00B9E2D0 /* Cocos2dxActivity.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxActivity.java; sourceTree = "<group>"; };
-		DC234FE214F3CCEF00B9E2D0 /* Cocos2dxBitmap.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxBitmap.java; sourceTree = "<group>"; };
-		DC234FE314F3CCEF00B9E2D0 /* Cocos2dxEditText.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxEditText.java; sourceTree = "<group>"; };
-		DC234FE414F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxGLSurfaceView.java; sourceTree = "<group>"; };
-		DC234FE514F3CCEF00B9E2D0 /* Cocos2dxMusic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxMusic.java; sourceTree = "<group>"; };
-		DC234FE614F3CCEF00B9E2D0 /* Cocos2dxRenderer.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxRenderer.java; sourceTree = "<group>"; };
-		DC234FE714F3CCEF00B9E2D0 /* Cocos2dxSound.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxSound.java; sourceTree = "<group>"; };
-		DC234FE814F3CCEF00B9E2D0 /* Cocos2dxTypefaces.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxTypefaces.java; sourceTree = "<group>"; };
 		DC23504514F3CDF000B9E2D0 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Android.mk; path = Classes/Android.mk; sourceTree = "<group>"; };
 		DC23504914F3E31200B9E2D0 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Android.mk; path = libs/cocos2dx/Android.mk; sourceTree = "<group>"; };
 		DC23504C14F3E33900B9E2D0 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
-		DC23504E14F3E33900B9E2D0 /* SimpleAudioEngineJni.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleAudioEngineJni.cpp; sourceTree = "<group>"; };
-		DC23504F14F3E33900B9E2D0 /* SimpleAudioEngineJni.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleAudioEngineJni.h; sourceTree = "<group>"; };
-		DC23505014F3E33900B9E2D0 /* SimpleAudioEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleAudioEngine.cpp; sourceTree = "<group>"; };
 		DC2EF17814EF90ED00B8676B /* SimpleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2EF17C14EF90ED00B8676B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DC2EF17E14EF90ED00B8676B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -644,226 +465,10 @@
 		DC234F6D14F3CCEF00B9E2D0 /* android */ = {
 			isa = PBXGroup;
 			children = (
-				DC234F6E14F3CCEF00B9E2D0 /* .classpath */,
-				DC234F6F14F3CCEF00B9E2D0 /* .project */,
-				DC234F7014F3CCEF00B9E2D0 /* AndroidManifest.xml */,
-				DC234F7114F3CCEF00B9E2D0 /* ant.properties */,
-				DC234F7214F3CCEF00B9E2D0 /* assets */,
-				DC234F7314F3CCEF00B9E2D0 /* bin */,
-				DC234FBC14F3CCEF00B9E2D0 /* build.xml */,
 				DC234FBD14F3CCEF00B9E2D0 /* build_native.sh */,
-				DC234FBE14F3CCEF00B9E2D0 /* gen */,
 				DC234FC314F3CCEF00B9E2D0 /* jni */,
-				DC234FCA14F3CCEF00B9E2D0 /* local.properties */,
-				DC234FCB14F3CCEF00B9E2D0 /* makefile */,
-				DC234FCC14F3CCEF00B9E2D0 /* proguard.cfg */,
-				DC234FCD14F3CCEF00B9E2D0 /* project.properties */,
-				DC234FCE14F3CCEF00B9E2D0 /* res */,
-				DC234FD914F3CCEF00B9E2D0 /* src */,
 			);
 			path = android;
-			sourceTree = "<group>";
-		};
-		DC234F7214F3CCEF00B9E2D0 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = assets;
-			sourceTree = "<group>";
-		};
-		DC234F7314F3CCEF00B9E2D0 /* bin */ = {
-			isa = PBXGroup;
-			children = (
-				DC234F7414F3CCEF00B9E2D0 /* classes */,
-				DC234F9B14F3CCEF00B9E2D0 /* org */,
-				DC234FBB14F3CCEF00B9E2D0 /* res */,
-			);
-			path = bin;
-			sourceTree = "<group>";
-		};
-		DC234F7414F3CCEF00B9E2D0 /* classes */ = {
-			isa = PBXGroup;
-			children = (
-				DC234F7514F3CCEF00B9E2D0 /* org */,
-			);
-			path = classes;
-			sourceTree = "<group>";
-		};
-		DC234F7514F3CCEF00B9E2D0 /* org */ = {
-			isa = PBXGroup;
-			children = (
-				DC234F7614F3CCEF00B9E2D0 /* andyque */,
-				DC234F7F14F3CCEF00B9E2D0 /* cocos2dx */,
-			);
-			path = org;
-			sourceTree = "<group>";
-		};
-		DC234F7614F3CCEF00B9E2D0 /* andyque */ = {
-			isa = PBXGroup;
-			children = (
-				DC234F7714F3CCEF00B9E2D0 /* simplegame */,
-			);
-			path = andyque;
-			sourceTree = "<group>";
-		};
-		DC234F7714F3CCEF00B9E2D0 /* simplegame */ = {
-			isa = PBXGroup;
-			children = (
-				DC234F7814F3CCEF00B9E2D0 /* R$attr.class */,
-				DC234F7914F3CCEF00B9E2D0 /* R$drawable.class */,
-				DC234F7A14F3CCEF00B9E2D0 /* R$id.class */,
-				DC234F7B14F3CCEF00B9E2D0 /* R$layout.class */,
-				DC234F7C14F3CCEF00B9E2D0 /* R$string.class */,
-				DC234F7D14F3CCEF00B9E2D0 /* R.class */,
-				DC234F7E14F3CCEF00B9E2D0 /* SimpleGame.class */,
-			);
-			path = simplegame;
-			sourceTree = "<group>";
-		};
-		DC234F7F14F3CCEF00B9E2D0 /* cocos2dx */ = {
-			isa = PBXGroup;
-			children = (
-				DC234F8014F3CCEF00B9E2D0 /* lib */,
-			);
-			path = cocos2dx;
-			sourceTree = "<group>";
-		};
-		DC234F8014F3CCEF00B9E2D0 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				DC234F8114F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.class */,
-				DC234F8214F3CCEF00B9E2D0 /* Cocos2dxActivity$1.class */,
-				DC234F8314F3CCEF00B9E2D0 /* Cocos2dxActivity$2.class */,
-				DC234F8414F3CCEF00B9E2D0 /* Cocos2dxActivity.class */,
-				DC234F8514F3CCEF00B9E2D0 /* Cocos2dxBitmap$TextProperty.class */,
-				DC234F8614F3CCEF00B9E2D0 /* Cocos2dxBitmap.class */,
-				DC234F8714F3CCEF00B9E2D0 /* Cocos2dxEditText.class */,
-				DC234F8814F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$1.class */,
-				DC234F8914F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$10.class */,
-				DC234F8A14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$11.class */,
-				DC234F8B14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$12.class */,
-				DC234F8C14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$2.class */,
-				DC234F8D14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$3.class */,
-				DC234F8E14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$4.class */,
-				DC234F8F14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$5.class */,
-				DC234F9014F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$6.class */,
-				DC234F9114F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$7.class */,
-				DC234F9214F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$8.class */,
-				DC234F9314F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$9.class */,
-				DC234F9414F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.class */,
-				DC234F9514F3CCEF00B9E2D0 /* Cocos2dxMusic.class */,
-				DC234F9614F3CCEF00B9E2D0 /* Cocos2dxRenderer.class */,
-				DC234F9714F3CCEF00B9E2D0 /* Cocos2dxSound.class */,
-				DC234F9814F3CCEF00B9E2D0 /* Cocos2dxTypefaces.class */,
-				DC234F9914F3CCEF00B9E2D0 /* DialogMessage.class */,
-				DC234F9A14F3CCEF00B9E2D0 /* TextInputWraper.class */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		DC234F9B14F3CCEF00B9E2D0 /* org */ = {
-			isa = PBXGroup;
-			children = (
-				DC234F9C14F3CCEF00B9E2D0 /* andyque */,
-				DC234F9F14F3CCEF00B9E2D0 /* cocos2dx */,
-			);
-			path = org;
-			sourceTree = "<group>";
-		};
-		DC234F9C14F3CCEF00B9E2D0 /* andyque */ = {
-			isa = PBXGroup;
-			children = (
-				DC234F9D14F3CCEF00B9E2D0 /* simplegame */,
-			);
-			path = andyque;
-			sourceTree = "<group>";
-		};
-		DC234F9D14F3CCEF00B9E2D0 /* simplegame */ = {
-			isa = PBXGroup;
-			children = (
-				DC234F9E14F3CCEF00B9E2D0 /* SimpleGame.class */,
-			);
-			path = simplegame;
-			sourceTree = "<group>";
-		};
-		DC234F9F14F3CCEF00B9E2D0 /* cocos2dx */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FA014F3CCEF00B9E2D0 /* lib */,
-			);
-			path = cocos2dx;
-			sourceTree = "<group>";
-		};
-		DC234FA014F3CCEF00B9E2D0 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FA114F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.class */,
-				DC234FA214F3CCEF00B9E2D0 /* Cocos2dxActivity$1.class */,
-				DC234FA314F3CCEF00B9E2D0 /* Cocos2dxActivity$2.class */,
-				DC234FA414F3CCEF00B9E2D0 /* Cocos2dxActivity.class */,
-				DC234FA514F3CCEF00B9E2D0 /* Cocos2dxBitmap$TextProperty.class */,
-				DC234FA614F3CCEF00B9E2D0 /* Cocos2dxBitmap.class */,
-				DC234FA714F3CCEF00B9E2D0 /* Cocos2dxEditText.class */,
-				DC234FA814F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$1.class */,
-				DC234FA914F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$10.class */,
-				DC234FAA14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$11.class */,
-				DC234FAB14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$12.class */,
-				DC234FAC14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$2.class */,
-				DC234FAD14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$3.class */,
-				DC234FAE14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$4.class */,
-				DC234FAF14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$5.class */,
-				DC234FB014F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$6.class */,
-				DC234FB114F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$7.class */,
-				DC234FB214F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$8.class */,
-				DC234FB314F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$9.class */,
-				DC234FB414F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.class */,
-				DC234FB514F3CCEF00B9E2D0 /* Cocos2dxMusic.class */,
-				DC234FB614F3CCEF00B9E2D0 /* Cocos2dxRenderer.class */,
-				DC234FB714F3CCEF00B9E2D0 /* Cocos2dxSound.class */,
-				DC234FB814F3CCEF00B9E2D0 /* Cocos2dxTypefaces.class */,
-				DC234FB914F3CCEF00B9E2D0 /* DialogMessage.class */,
-				DC234FBA14F3CCEF00B9E2D0 /* TextInputWraper.class */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		DC234FBB14F3CCEF00B9E2D0 /* res */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = res;
-			sourceTree = "<group>";
-		};
-		DC234FBE14F3CCEF00B9E2D0 /* gen */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FBF14F3CCEF00B9E2D0 /* org */,
-			);
-			path = gen;
-			sourceTree = "<group>";
-		};
-		DC234FBF14F3CCEF00B9E2D0 /* org */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FC014F3CCEF00B9E2D0 /* andyque */,
-			);
-			path = org;
-			sourceTree = "<group>";
-		};
-		DC234FC014F3CCEF00B9E2D0 /* andyque */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FC114F3CCEF00B9E2D0 /* simplegame */,
-			);
-			path = andyque;
-			sourceTree = "<group>";
-		};
-		DC234FC114F3CCEF00B9E2D0 /* simplegame */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FC214F3CCEF00B9E2D0 /* R.java */,
-			);
-			path = simplegame;
 			sourceTree = "<group>";
 		};
 		DC234FC314F3CCEF00B9E2D0 /* jni */ = {
@@ -872,7 +477,6 @@
 				DC234FC414F3CCEF00B9E2D0 /* Android.mk */,
 				DC234FC514F3CCEF00B9E2D0 /* Application.mk */,
 				DC234FC614F3CCEF00B9E2D0 /* helloworld */,
-				DC234FC914F3CCEF00B9E2D0 /* list.sh */,
 			);
 			path = jni;
 			sourceTree = "<group>";
@@ -881,138 +485,17 @@
 			isa = PBXGroup;
 			children = (
 				DC234FC714F3CCEF00B9E2D0 /* Android.mk */,
-				DC234FC814F3CCEF00B9E2D0 /* main.cpp */,
 			);
 			path = helloworld;
-			sourceTree = "<group>";
-		};
-		DC234FCE14F3CCEF00B9E2D0 /* res */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FCF14F3CCEF00B9E2D0 /* drawable-hdpi */,
-				DC234FD114F3CCEF00B9E2D0 /* drawable-ldpi */,
-				DC234FD314F3CCEF00B9E2D0 /* drawable-mdpi */,
-				DC234FD514F3CCEF00B9E2D0 /* layout */,
-				DC234FD714F3CCEF00B9E2D0 /* values */,
-			);
-			path = res;
-			sourceTree = "<group>";
-		};
-		DC234FCF14F3CCEF00B9E2D0 /* drawable-hdpi */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FD014F3CCEF00B9E2D0 /* icon.png */,
-			);
-			path = "drawable-hdpi";
-			sourceTree = "<group>";
-		};
-		DC234FD114F3CCEF00B9E2D0 /* drawable-ldpi */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FD214F3CCEF00B9E2D0 /* icon.png */,
-			);
-			path = "drawable-ldpi";
-			sourceTree = "<group>";
-		};
-		DC234FD314F3CCEF00B9E2D0 /* drawable-mdpi */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FD414F3CCEF00B9E2D0 /* icon.png */,
-			);
-			path = "drawable-mdpi";
-			sourceTree = "<group>";
-		};
-		DC234FD514F3CCEF00B9E2D0 /* layout */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FD614F3CCEF00B9E2D0 /* game_demo.xml */,
-			);
-			path = layout;
-			sourceTree = "<group>";
-		};
-		DC234FD714F3CCEF00B9E2D0 /* values */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FD814F3CCEF00B9E2D0 /* strings.xml */,
-			);
-			path = values;
-			sourceTree = "<group>";
-		};
-		DC234FD914F3CCEF00B9E2D0 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FDA14F3CCEF00B9E2D0 /* org */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		DC234FDA14F3CCEF00B9E2D0 /* org */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FDB14F3CCEF00B9E2D0 /* andyque */,
-				DC234FDE14F3CCEF00B9E2D0 /* cocos2dx */,
-			);
-			path = org;
-			sourceTree = "<group>";
-		};
-		DC234FDB14F3CCEF00B9E2D0 /* andyque */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FDC14F3CCEF00B9E2D0 /* simplegame */,
-			);
-			path = andyque;
-			sourceTree = "<group>";
-		};
-		DC234FDC14F3CCEF00B9E2D0 /* simplegame */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FDD14F3CCEF00B9E2D0 /* SimpleGame.java */,
-			);
-			path = simplegame;
-			sourceTree = "<group>";
-		};
-		DC234FDE14F3CCEF00B9E2D0 /* cocos2dx */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FDF14F3CCEF00B9E2D0 /* lib */,
-			);
-			path = cocos2dx;
-			sourceTree = "<group>";
-		};
-		DC234FDF14F3CCEF00B9E2D0 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				DC234FE014F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.java */,
-				DC234FE114F3CCEF00B9E2D0 /* Cocos2dxActivity.java */,
-				DC234FE214F3CCEF00B9E2D0 /* Cocos2dxBitmap.java */,
-				DC234FE314F3CCEF00B9E2D0 /* Cocos2dxEditText.java */,
-				DC234FE414F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.java */,
-				DC234FE514F3CCEF00B9E2D0 /* Cocos2dxMusic.java */,
-				DC234FE614F3CCEF00B9E2D0 /* Cocos2dxRenderer.java */,
-				DC234FE714F3CCEF00B9E2D0 /* Cocos2dxSound.java */,
-				DC234FE814F3CCEF00B9E2D0 /* Cocos2dxTypefaces.java */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 		DC23504B14F3E33900B9E2D0 /* android */ = {
 			isa = PBXGroup;
 			children = (
 				DC23504C14F3E33900B9E2D0 /* Android.mk */,
-				DC23504D14F3E33900B9E2D0 /* jni */,
-				DC23505014F3E33900B9E2D0 /* SimpleAudioEngine.cpp */,
 			);
 			name = android;
 			path = libs/CocosDenshion/android;
-			sourceTree = "<group>";
-		};
-		DC23504D14F3E33900B9E2D0 /* jni */ = {
-			isa = PBXGroup;
-			children = (
-				DC23504E14F3E33900B9E2D0 /* SimpleAudioEngineJni.cpp */,
-				DC23504F14F3E33900B9E2D0 /* SimpleAudioEngineJni.h */,
-			);
-			path = jni;
 			sourceTree = "<group>";
 		};
 		DC2EF16D14EF90ED00B8676B = {
@@ -1666,84 +1149,10 @@
 				DC9C2C5F14EFED1B00800099 /* Player.png in Resources */,
 				DC9C2C6014EFED1B00800099 /* Projectile.png in Resources */,
 				DC9C2C6114EFED1B00800099 /* Target.png in Resources */,
-				DC234FE914F3CCEF00B9E2D0 /* .classpath in Resources */,
-				DC234FEA14F3CCEF00B9E2D0 /* .project in Resources */,
-				DC234FEB14F3CCEF00B9E2D0 /* AndroidManifest.xml in Resources */,
-				DC234FEC14F3CCEF00B9E2D0 /* ant.properties in Resources */,
-				DC234FED14F3CCEF00B9E2D0 /* R$attr.class in Resources */,
-				DC234FEE14F3CCEF00B9E2D0 /* R$drawable.class in Resources */,
-				DC234FEF14F3CCEF00B9E2D0 /* R$id.class in Resources */,
-				DC234FF014F3CCEF00B9E2D0 /* R$layout.class in Resources */,
-				DC234FF114F3CCEF00B9E2D0 /* R$string.class in Resources */,
-				DC234FF214F3CCEF00B9E2D0 /* R.class in Resources */,
-				DC234FF314F3CCEF00B9E2D0 /* SimpleGame.class in Resources */,
-				DC234FF414F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.class in Resources */,
-				DC234FF514F3CCEF00B9E2D0 /* Cocos2dxActivity$1.class in Resources */,
-				DC234FF614F3CCEF00B9E2D0 /* Cocos2dxActivity$2.class in Resources */,
-				DC234FF714F3CCEF00B9E2D0 /* Cocos2dxActivity.class in Resources */,
-				DC234FF814F3CCEF00B9E2D0 /* Cocos2dxBitmap$TextProperty.class in Resources */,
-				DC234FF914F3CCEF00B9E2D0 /* Cocos2dxBitmap.class in Resources */,
-				DC234FFA14F3CCEF00B9E2D0 /* Cocos2dxEditText.class in Resources */,
-				DC234FFB14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$1.class in Resources */,
-				DC234FFC14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$10.class in Resources */,
-				DC234FFD14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$11.class in Resources */,
-				DC234FFE14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$12.class in Resources */,
-				DC234FFF14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$2.class in Resources */,
-				DC23500014F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$3.class in Resources */,
-				DC23500114F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$4.class in Resources */,
-				DC23500214F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$5.class in Resources */,
-				DC23500314F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$6.class in Resources */,
-				DC23500414F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$7.class in Resources */,
-				DC23500514F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$8.class in Resources */,
-				DC23500614F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$9.class in Resources */,
-				DC23500714F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.class in Resources */,
-				DC23500814F3CCEF00B9E2D0 /* Cocos2dxMusic.class in Resources */,
-				DC23500914F3CCEF00B9E2D0 /* Cocos2dxRenderer.class in Resources */,
-				DC23500A14F3CCEF00B9E2D0 /* Cocos2dxSound.class in Resources */,
-				DC23500B14F3CCEF00B9E2D0 /* Cocos2dxTypefaces.class in Resources */,
-				DC23500C14F3CCEF00B9E2D0 /* DialogMessage.class in Resources */,
-				DC23500D14F3CCEF00B9E2D0 /* TextInputWraper.class in Resources */,
-				DC23500E14F3CCEF00B9E2D0 /* SimpleGame.class in Resources */,
-				DC23500F14F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.class in Resources */,
-				DC23501014F3CCEF00B9E2D0 /* Cocos2dxActivity$1.class in Resources */,
-				DC23501114F3CCEF00B9E2D0 /* Cocos2dxActivity$2.class in Resources */,
-				DC23501214F3CCEF00B9E2D0 /* Cocos2dxActivity.class in Resources */,
-				DC23501314F3CCEF00B9E2D0 /* Cocos2dxBitmap$TextProperty.class in Resources */,
-				DC23501414F3CCEF00B9E2D0 /* Cocos2dxBitmap.class in Resources */,
-				DC23501514F3CCEF00B9E2D0 /* Cocos2dxEditText.class in Resources */,
-				DC23501614F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$1.class in Resources */,
-				DC23501714F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$10.class in Resources */,
-				DC23501814F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$11.class in Resources */,
-				DC23501914F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$12.class in Resources */,
-				DC23501A14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$2.class in Resources */,
-				DC23501B14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$3.class in Resources */,
-				DC23501C14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$4.class in Resources */,
-				DC23501D14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$5.class in Resources */,
-				DC23501E14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$6.class in Resources */,
-				DC23501F14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$7.class in Resources */,
-				DC23502014F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$8.class in Resources */,
-				DC23502114F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView$9.class in Resources */,
-				DC23502214F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.class in Resources */,
-				DC23502314F3CCEF00B9E2D0 /* Cocos2dxMusic.class in Resources */,
-				DC23502414F3CCEF00B9E2D0 /* Cocos2dxRenderer.class in Resources */,
-				DC23502514F3CCEF00B9E2D0 /* Cocos2dxSound.class in Resources */,
-				DC23502614F3CCEF00B9E2D0 /* Cocos2dxTypefaces.class in Resources */,
-				DC23502714F3CCEF00B9E2D0 /* DialogMessage.class in Resources */,
-				DC23502814F3CCEF00B9E2D0 /* TextInputWraper.class in Resources */,
-				DC23502914F3CCEF00B9E2D0 /* build.xml in Resources */,
 				DC23502A14F3CCEF00B9E2D0 /* build_native.sh in Resources */,
 				DC23502C14F3CCEF00B9E2D0 /* Android.mk in Resources */,
 				DC23502D14F3CCEF00B9E2D0 /* Application.mk in Resources */,
 				DC23502E14F3CCEF00B9E2D0 /* Android.mk in Resources */,
-				DC23503014F3CCEF00B9E2D0 /* list.sh in Resources */,
-				DC23503114F3CCEF00B9E2D0 /* local.properties in Resources */,
-				DC23503314F3CCEF00B9E2D0 /* proguard.cfg in Resources */,
-				DC23503414F3CCEF00B9E2D0 /* project.properties in Resources */,
-				DC23503514F3CCEF00B9E2D0 /* icon.png in Resources */,
-				DC23503614F3CCEF00B9E2D0 /* icon.png in Resources */,
-				DC23503714F3CCEF00B9E2D0 /* icon.png in Resources */,
-				DC23503814F3CCEF00B9E2D0 /* game_demo.xml in Resources */,
-				DC23503914F3CCEF00B9E2D0 /* strings.xml in Resources */,
 				DC23504614F3CDF000B9E2D0 /* Android.mk in Resources */,
 				DC23504A14F3E31200B9E2D0 /* Android.mk in Resources */,
 				DC23505114F3E33900B9E2D0 /* Android.mk in Resources */,
@@ -1871,21 +1280,6 @@
 				DC2EF33114EF90F100B8676B /* RootViewController.mm in Sources */,
 				DC2EF33514EF90F100B8676B /* AppDelegate.cpp in Sources */,
 				DC2EF33814EF90F100B8676B /* HelloWorldScene.cpp in Sources */,
-				DC23502B14F3CCEF00B9E2D0 /* R.java in Sources */,
-				DC23502F14F3CCEF00B9E2D0 /* main.cpp in Sources */,
-				DC23503214F3CCEF00B9E2D0 /* makefile in Sources */,
-				DC23503A14F3CCEF00B9E2D0 /* SimpleGame.java in Sources */,
-				DC23503B14F3CCEF00B9E2D0 /* Cocos2dxAccelerometer.java in Sources */,
-				DC23503C14F3CCEF00B9E2D0 /* Cocos2dxActivity.java in Sources */,
-				DC23503D14F3CCEF00B9E2D0 /* Cocos2dxBitmap.java in Sources */,
-				DC23503E14F3CCEF00B9E2D0 /* Cocos2dxEditText.java in Sources */,
-				DC23503F14F3CCEF00B9E2D0 /* Cocos2dxGLSurfaceView.java in Sources */,
-				DC23504014F3CCEF00B9E2D0 /* Cocos2dxMusic.java in Sources */,
-				DC23504114F3CCEF00B9E2D0 /* Cocos2dxRenderer.java in Sources */,
-				DC23504214F3CCEF00B9E2D0 /* Cocos2dxSound.java in Sources */,
-				DC23504314F3CCEF00B9E2D0 /* Cocos2dxTypefaces.java in Sources */,
-				DC23505214F3E33900B9E2D0 /* SimpleAudioEngineJni.cpp in Sources */,
-				DC23505314F3E33900B9E2D0 /* SimpleAudioEngine.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

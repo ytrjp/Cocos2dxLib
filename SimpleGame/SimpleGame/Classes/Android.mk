@@ -14,4 +14,4 @@ LOCAL_LDLIBS := -L$(call host-path, $(LOCAL_PATH)/../android/libs/$(TARGET_ARCH_
                 -lcocosdenshion -lcocos2d  \
                 -L$(call host-path, $(LOCAL_PATH)/../libs/cocos2dx/platform/third_party/android/libraries/$(TARGET_ARCH_ABI)) 
 
-include $(BUILD_STATIC_LIBRARY)
+include $(BUILD_SHARED_LIBRARY)

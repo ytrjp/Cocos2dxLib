@@ -33,14 +33,6 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSJavaNeeded</key>
-	<string>YES</string>
-	<key>NSJavaPath</key>
-	<array>
-		<string>SimpleGame.jar</string>
-	</array>
-	<key>NSJavaRoot</key>
-	<string>Contents/Resources/Java</string>
 	<key>UIPrerenderedIcon</key>
 	<true/>
 	<key>UIRequiredDeviceCapabilities</key>

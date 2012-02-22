@@ -130,7 +130,7 @@ LOCAL_STATIC_LIBRARIES += jpeg_static_prebuilt
 # define the macro to compile through support/zip_support/ioapi.c                
 LOCAL_CFLAGS := -DUSE_FILE32API -DGL_GLEXT_PROTOTYPES=1
 
-include $(BUILD_STATIC_LIBRARY)
+include $(BUILD_SHARED_LIBRARY)
 
 $(call import-add-path,$(LOCAL_PATH)/..)
 $(call import-module,cocos2dx/platform/third_party/android/modules/libpng)
