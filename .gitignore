@@ -3,3 +3,5 @@ SimpleGame/SimpleGame.xcodeproj/xcuserdata
 Graphics.xcworkspace/xcuserdata
 SimpleGame/SimpleGame/android/libs
 SimpleGame/SimpleGame/android/obj
+
+SimpleGame/SimpleGame/android/bin/classes
