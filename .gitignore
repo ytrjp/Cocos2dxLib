@@ -7,3 +7,6 @@ SimpleGame/SimpleGame/android/obj/local/armeabi/objs-debug/game_logic_static/App
 SimpleGame/SimpleGame/android/obj/local/armeabi/objs-debug/game_logic_static/AppDelegate.o.d
 SimpleGame/SimpleGame/android/obj/local/armeabi/objs-debug/game_logic_static/HelloWorldScene.o
 SimpleGame/SimpleGame/android/obj/local/armeabi/objs-debug/game_logic_static/HelloWorldScene.o.d
+SimpleGame/SimpleGame/android/bin
+SimpleGame/SimpleGame/android/libs
+SimpleGame/SimpleGame/android/obj
