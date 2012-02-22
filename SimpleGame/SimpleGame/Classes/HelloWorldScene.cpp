@@ -37,6 +37,11 @@ bool HelloWorld::init()
                               screenSize.height / 2.0f));
     this->addChild(ninjiaSprite);
     
+    CCSprite *targetSprite = CCSprite::spriteWithFile("Target.png");
+    targetSprite->setPosition(ccp(screenSize.width / 2.0f, screenSize.height / 2.0f));
+    this->addChild(targetSprite);
+    
+    
 //    this->schedule(schedule_selector())
 	
 	
