@@ -37,7 +37,7 @@ bool HelloWorld::init()
                               screenSize.height / 2.0f));
     this->addChild(ninjiaSprite);
     
-    this->schedule(schedule_selector())
+//    this->schedule(schedule_selector())
 	
 	
 	return true;
