@@ -1,15 +1,5 @@
 SimpleGame/SimpleGame.xcodeproj/xcuserdata
 .DS_Store
 Graphics.xcworkspace/xcuserdata
-<<<<<<< HEAD
-=======
-SimpleGame/SimpleGame/android/obj/local/armeabi/libcocos2d.a
-SimpleGame/SimpleGame/android/obj/local/armeabi/libgame_logic_static.a
-SimpleGame/SimpleGame/android/obj/local/armeabi/objs-debug/game_logic_static/AppDelegate.o
-SimpleGame/SimpleGame/android/obj/local/armeabi/objs-debug/game_logic_static/AppDelegate.o.d
-SimpleGame/SimpleGame/android/obj/local/armeabi/objs-debug/game_logic_static/HelloWorldScene.o
-SimpleGame/SimpleGame/android/obj/local/armeabi/objs-debug/game_logic_static/HelloWorldScene.o.d
-SimpleGame/SimpleGame/android/bin
->>>>>>> refs/heads/develop
 SimpleGame/SimpleGame/android/libs
 SimpleGame/SimpleGame/android/obj
