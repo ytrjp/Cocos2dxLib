@@ -1,3 +1,5 @@
 SimpleGame/SimpleGame.xcodeproj/xcuserdata
 .DS_Store
 Graphics.xcworkspace/xcuserdata
+SimpleGame/SimpleGame/android/libs
+SimpleGame/SimpleGame/android/obj
