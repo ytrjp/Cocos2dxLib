@@ -42,8 +42,6 @@ bool HelloWorld::init()
     this->addChild(targetSprite);
     
     
-//    this->schedule(schedule_selector())
-	
 	
 	return true;
 }

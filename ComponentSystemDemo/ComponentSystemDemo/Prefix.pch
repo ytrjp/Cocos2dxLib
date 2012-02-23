@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'ComponentSystemDemo' target in the 'ComponentSystemDemo' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
