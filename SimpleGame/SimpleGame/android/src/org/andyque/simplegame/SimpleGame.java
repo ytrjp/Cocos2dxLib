@@ -38,6 +38,7 @@ public class SimpleGame extends Cocos2dxActivity{
 		// get the packageName,it's used to set the resource path
 		String packageName = getApplication().getPackageName();
 		super.setPackageName(packageName);
+        
 		
 		setContentView(R.layout.game_demo);
         mGLView = (Cocos2dxGLSurfaceView) findViewById(R.id.game_gl_surfaceview);
@@ -57,9 +58,7 @@ public class SimpleGame extends Cocos2dxActivity{
 	 }
 	
      static {
-    	 System.loadLibrary("cocos2d");
     	 System.loadLibrary("cocosdenshion");
-    	 System.loadLibrary("game_logic");
          System.loadLibrary("game");
      }
 }
