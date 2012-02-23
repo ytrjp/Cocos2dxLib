@@ -150,6 +150,7 @@
 		DC9C2C5F14EFED1B00800099 /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9C2C5C14EFED1B00800099 /* Player.png */; };
 		DC9C2C6014EFED1B00800099 /* Projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9C2C5D14EFED1B00800099 /* Projectile.png */; };
 		DC9C2C6114EFED1B00800099 /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9C2C5E14EFED1B00800099 /* Target.png */; };
+		DCCC79D514F5A990001DE08B /* SimpleGame.java in Sources */ = {isa = PBXBuildFile; fileRef = DCCC79D414F5A990001DE08B /* SimpleGame.java */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -441,6 +442,7 @@
 		DC9C2C5C14EFED1B00800099 /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Player.png; path = Resources/Player.png; sourceTree = "<group>"; };
 		DC9C2C5D14EFED1B00800099 /* Projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Projectile.png; path = Resources/Projectile.png; sourceTree = "<group>"; };
 		DC9C2C5E14EFED1B00800099 /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Target.png; path = Resources/Target.png; sourceTree = "<group>"; };
+		DCCC79D414F5A990001DE08B /* SimpleGame.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = SimpleGame.java; path = src/org/andyque/simplegame/SimpleGame.java; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -465,6 +467,7 @@
 		DC234F6D14F3CCEF00B9E2D0 /* android */ = {
 			isa = PBXGroup;
 			children = (
+				DCCC79D414F5A990001DE08B /* SimpleGame.java */,
 				DC234FBD14F3CCEF00B9E2D0 /* build_native.sh */,
 				DC234FC314F3CCEF00B9E2D0 /* jni */,
 			);
@@ -1280,6 +1283,7 @@
 				DC2EF33114EF90F100B8676B /* RootViewController.mm in Sources */,
 				DC2EF33514EF90F100B8676B /* AppDelegate.cpp in Sources */,
 				DC2EF33814EF90F100B8676B /* HelloWorldScene.cpp in Sources */,
+				DCCC79D514F5A990001DE08B /* SimpleGame.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
