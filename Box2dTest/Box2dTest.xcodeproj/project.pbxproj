@@ -186,6 +186,17 @@
 		DC37D9F414FD183F0067C13C /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC37D9F314FD183F0067C13C /* AppDelegate.cpp */; };
 		DC37D9F714FD183F0067C13C /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC37D9F614FD183F0067C13C /* HelloWorldScene.cpp */; };
 		DC37D9F914FD183F0067C13C /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = DC37D9F814FD183F0067C13C /* blocks.png */; };
+		DC37DA0714FD1A6C0067C13C /* build_native.sh in Resources */ = {isa = PBXBuildFile; fileRef = DC37D9FF14FD1A6C0067C13C /* build_native.sh */; };
+		DC37DA0814FD1A6C0067C13C /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = DC37DA0114FD1A6C0067C13C /* Android.mk */; };
+		DC37DA0914FD1A6C0067C13C /* Application.mk in Resources */ = {isa = PBXBuildFile; fileRef = DC37DA0214FD1A6C0067C13C /* Application.mk */; };
+		DC37DA0A14FD1A6C0067C13C /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = DC37DA0414FD1A6C0067C13C /* Android.mk */; };
+		DC37DA0B14FD1A6C0067C13C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC37DA0514FD1A6C0067C13C /* main.cpp */; };
+		DC37DA0C14FD1A6C0067C13C /* list.sh in Resources */ = {isa = PBXBuildFile; fileRef = DC37DA0614FD1A6C0067C13C /* list.sh */; };
+		DC37DA0F14FD1BA80067C13C /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = DC37DA0E14FD1BA80067C13C /* Android.mk */; };
+		DC37DA1114FD1BB90067C13C /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = DC37DA1014FD1BB90067C13C /* Android.mk */; };
+		DC37DA1314FD1BC60067C13C /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = DC37DA1214FD1BC60067C13C /* Android.mk */; };
+		DC37DA1514FD1C800067C13C /* Box2dTest.java in Sources */ = {isa = PBXBuildFile; fileRef = DC37DA1414FD1C800067C13C /* Box2dTest.java */; };
+		DC37DA1714FD1CBE0067C13C /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = DC37DA1614FD1CBE0067C13C /* Android.mk */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -559,6 +570,17 @@
 		DC37D9F514FD183F0067C13C /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		DC37D9F614FD183F0067C13C /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		DC37D9F814FD183F0067C13C /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		DC37D9FF14FD1A6C0067C13C /* build_native.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = build_native.sh; path = android/build_native.sh; sourceTree = "<group>"; };
+		DC37DA0114FD1A6C0067C13C /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		DC37DA0214FD1A6C0067C13C /* Application.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Application.mk; sourceTree = "<group>"; };
+		DC37DA0414FD1A6C0067C13C /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		DC37DA0514FD1A6C0067C13C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DC37DA0614FD1A6C0067C13C /* list.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = list.sh; sourceTree = "<group>"; };
+		DC37DA0E14FD1BA80067C13C /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Android.mk; path = libs/Box2D/Android.mk; sourceTree = "<group>"; };
+		DC37DA1014FD1BB90067C13C /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Android.mk; path = libs/CocosDenshion/android/Android.mk; sourceTree = "<group>"; };
+		DC37DA1214FD1BC60067C13C /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Android.mk; path = libs/cocos2dx/Android.mk; sourceTree = "<group>"; };
+		DC37DA1414FD1C800067C13C /* Box2dTest.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Box2dTest.java; path = android/src/org/andyque/box2dtest/Box2dTest.java; sourceTree = "<group>"; };
+		DC37DA1614FD1CBE0067C13C /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Android.mk; path = Classes/Android.mk; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -615,6 +637,7 @@
 		DC37D7BB14FD183A0067C13C /* Box2dTest */ = {
 			isa = PBXGroup;
 			children = (
+				DC37DA0D14FD1B8C0067C13C /* Android */,
 				DC37D7BC14FD183A0067C13C /* Resources */,
 				DC37D7D414FD183A0067C13C /* libs */,
 				DC37D9E814FD183F0067C13C /* ios */,
@@ -657,6 +680,7 @@
 		DC37D7D514FD183A0067C13C /* cocos2dx */ = {
 			isa = PBXGroup;
 			children = (
+				DC37DA1214FD1BC60067C13C /* Android.mk */,
 				DC37D7F214FD183B0067C13C /* CCCamera.cpp */,
 				DC37D7F414FD183B0067C13C /* CCConfiguration.cpp */,
 				DC37D7F614FD183B0067C13C /* CCConfiguration.h */,
@@ -1099,6 +1123,7 @@
 		DC37D94214FD183E0067C13C /* CocosDenshion */ = {
 			isa = PBXGroup;
 			children = (
+				DC37DA1014FD1BB90067C13C /* Android.mk */,
 				DC37D94314FD183E0067C13C /* include */,
 				DC37D94614FD183E0067C13C /* ios */,
 			);
@@ -1134,6 +1159,7 @@
 		DC37D95614FD183E0067C13C /* Box2D */ = {
 			isa = PBXGroup;
 			children = (
+				DC37DA0E14FD1BA80067C13C /* Android.mk */,
 				DC37D95714FD183E0067C13C /* Box2D.h */,
 				DC37D95814FD183E0067C13C /* Collision */,
 				DC37D97C14FD183E0067C13C /* Common */,
@@ -1308,12 +1334,44 @@
 		DC37D9F114FD183F0067C13C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DC37DA1614FD1CBE0067C13C /* Android.mk */,
 				DC37D9F214FD183F0067C13C /* AppDelegate.h */,
 				DC37D9F314FD183F0067C13C /* AppDelegate.cpp */,
 				DC37D9F514FD183F0067C13C /* HelloWorldScene.h */,
 				DC37D9F614FD183F0067C13C /* HelloWorldScene.cpp */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		DC37DA0014FD1A6C0067C13C /* jni */ = {
+			isa = PBXGroup;
+			children = (
+				DC37DA0114FD1A6C0067C13C /* Android.mk */,
+				DC37DA0214FD1A6C0067C13C /* Application.mk */,
+				DC37DA0314FD1A6C0067C13C /* helloworld */,
+				DC37DA0614FD1A6C0067C13C /* list.sh */,
+			);
+			name = jni;
+			path = android/jni;
+			sourceTree = "<group>";
+		};
+		DC37DA0314FD1A6C0067C13C /* helloworld */ = {
+			isa = PBXGroup;
+			children = (
+				DC37DA0414FD1A6C0067C13C /* Android.mk */,
+				DC37DA0514FD1A6C0067C13C /* main.cpp */,
+			);
+			path = helloworld;
+			sourceTree = "<group>";
+		};
+		DC37DA0D14FD1B8C0067C13C /* Android */ = {
+			isa = PBXGroup;
+			children = (
+				DC37DA1414FD1C800067C13C /* Box2dTest.java */,
+				DC37D9FF14FD1A6C0067C13C /* build_native.sh */,
+				DC37DA0014FD1A6C0067C13C /* jni */,
+			);
+			name = Android;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1378,6 +1436,15 @@
 				DC37D7D014FD183A0067C13C /* Icon@2x.png in Resources */,
 				DC37D7D314FD183A0067C13C /* iTunesArtwork in Resources */,
 				DC37D9F914FD183F0067C13C /* blocks.png in Resources */,
+				DC37DA0714FD1A6C0067C13C /* build_native.sh in Resources */,
+				DC37DA0814FD1A6C0067C13C /* Android.mk in Resources */,
+				DC37DA0914FD1A6C0067C13C /* Application.mk in Resources */,
+				DC37DA0A14FD1A6C0067C13C /* Android.mk in Resources */,
+				DC37DA0C14FD1A6C0067C13C /* list.sh in Resources */,
+				DC37DA0F14FD1BA80067C13C /* Android.mk in Resources */,
+				DC37DA1114FD1BB90067C13C /* Android.mk in Resources */,
+				DC37DA1314FD1BC60067C13C /* Android.mk in Resources */,
+				DC37DA1714FD1CBE0067C13C /* Android.mk in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1547,6 +1614,8 @@
 				DC37D9F014FD183F0067C13C /* RootViewController.mm in Sources */,
 				DC37D9F414FD183F0067C13C /* AppDelegate.cpp in Sources */,
 				DC37D9F714FD183F0067C13C /* HelloWorldScene.cpp in Sources */,
+				DC37DA0B14FD1A6C0067C13C /* main.cpp in Sources */,
+				DC37DA1514FD1C800067C13C /* Box2dTest.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
