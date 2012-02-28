@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Box2dTest/Box2dTest.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ComponentSystemDemo/ComponentSystemDemo.xcodeproj">
    </FileRef>
    <FileRef

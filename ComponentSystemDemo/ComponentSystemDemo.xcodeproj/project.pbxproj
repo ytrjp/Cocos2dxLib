@@ -1285,14 +1285,14 @@
 		DCCC7C4214F634B4001DE08B /* ComponentCommon */ = {
 			isa = PBXGroup;
 			children = (
-				DCCC7C4314F634B4001DE08B /* Component.hpp */,
 				DCCC7C4414F634B4001DE08B /* ComponentTemplate.hpp */,
-				DCCC7C4514F634B4001DE08B /* CompTemplateMgr.cpp */,
+				DCCC7C4314F634B4001DE08B /* Component.hpp */,
 				DCCC7C4614F634B4001DE08B /* CompTemplateMgr.hpp */,
+				DCCC7C4514F634B4001DE08B /* CompTemplateMgr.cpp */,
 				DCCC7C4714F634B4001DE08B /* Object.hpp */,
 				DCCC7C4814F634B4001DE08B /* ObjectTemplate.hpp */,
-				DCCC7C4914F634B4001DE08B /* ObjTemplateMgr.cpp */,
 				DCCC7C4A14F634B4001DE08B /* ObjTemplateMgr.hpp */,
+				DCCC7C4914F634B4001DE08B /* ObjTemplateMgr.cpp */,
 			);
 			name = ComponentCommon;
 			path = Classes/ComponentCommon;
@@ -1680,6 +1680,7 @@
 				DCCC7C3514F63311001DE08B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
