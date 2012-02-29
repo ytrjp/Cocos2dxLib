@@ -6,3 +6,6 @@ SimpleGame/SimpleGame/android/obj
 
 SimpleGame/SimpleGame/android/bin/classes
 Box2dTest/Box2dTest.xcodeproj/xcuserdata/
+Box2dTest/Box2dTest/android/libs
+Box2dTest/Box2dTest/android/obj
+Box2dTest/Box2dTest/android/bin

@@ -12,7 +12,6 @@ LOCAL_SRC_FILES := AppDelegate.cpp \
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../libs/cocos2dx \
                     $(LOCAL_PATH)/../libs/cocos2dx/platform \
                     $(LOCAL_PATH)/../libs/cocos2dx/include \
-                    $(LOCAL_PATH)/../libs/Classes \
                     $(LOCAL_PATH)/../libs/Box2D/ \
                    
 
