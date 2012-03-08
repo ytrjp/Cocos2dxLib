@@ -106,7 +106,7 @@ bool HelloWorld::init()
     
     schedule(schedule_selector(HelloWorld::update));
     
-    SimpleAudioEngine::sharedEngine()->playBackgroundMusic("background-music-aac.caf",true);
+    SimpleAudioEngine::sharedEngine()->playBackgroundMusic("background-music-aac.mp3",true);
 	
 	return true;
 }
@@ -211,7 +211,7 @@ void HelloWorld::ccTouchesEnded(cocos2d::CCSet *pTouches, cocos2d::CCEvent *pEve
     float moveDuration = offsetRealLength / velocity;
     
     
-    SimpleAudioEngine::sharedEngine()->playEffect("pew-pew-lei.caf");
+    SimpleAudioEngine::sharedEngine()->playEffect("pew-pew-lei.mp3");
     
     //6.make the projectile to run a moveTo action
     CCLOG( "projectile shooting!");

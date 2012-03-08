@@ -5,10 +5,10 @@
 //  Created by kdanmobile09 on 12-3-8.
 //  Copyright 2012年 __MyCompanyName__. All rights reserved.
 //
-#pragma once
+#ifndef __GameOverScene_H
+#define __GameOverScene_H
 
-
-#import "cocos2d.h"
+#include  "cocos2d.h"
 
 USING_NS_CC;
 
@@ -27,3 +27,5 @@ public:
     //property
     CC_SYNTHESIZE(CCLabelTTF*, _label, Label)
 };
+
+#endif

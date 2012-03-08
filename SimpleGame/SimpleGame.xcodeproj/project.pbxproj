@@ -147,9 +147,18 @@
 		DC2EF33114EF90F100B8676B /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC2EF33014EF90F100B8676B /* RootViewController.mm */; };
 		DC2EF33514EF90F100B8676B /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2EF33414EF90F100B8676B /* AppDelegate.cpp */; };
 		DC2EF33814EF90F100B8676B /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC2EF33714EF90F100B8676B /* HelloWorldScene.cpp */; };
-		DC8464711508FCD60065EB5D /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = DC84646F1508FCD60065EB5D /* background-music-aac.caf */; };
-		DC8464721508FCD60065EB5D /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = DC8464701508FCD60065EB5D /* pew-pew-lei.caf */; };
+		DC8464711508FCD60065EB5D /* background-music-aac.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC84646F1508FCD60065EB5D /* background-music-aac.mp3 */; };
+		DC8464721508FCD60065EB5D /* pew-pew-lei.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DC8464701508FCD60065EB5D /* pew-pew-lei.mp3 */; };
 		DC8464791508FE360065EB5D /* GameOverScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC8464781508FE360065EB5D /* GameOverScene.cpp */; };
+		DC84649615090C660065EB5D /* Cocos2dxAccelerometer.java in Sources */ = {isa = PBXBuildFile; fileRef = DC84648D15090C660065EB5D /* Cocos2dxAccelerometer.java */; };
+		DC84649715090C660065EB5D /* Cocos2dxActivity.java in Sources */ = {isa = PBXBuildFile; fileRef = DC84648E15090C660065EB5D /* Cocos2dxActivity.java */; };
+		DC84649815090C660065EB5D /* Cocos2dxBitmap.java in Sources */ = {isa = PBXBuildFile; fileRef = DC84648F15090C660065EB5D /* Cocos2dxBitmap.java */; };
+		DC84649915090C660065EB5D /* Cocos2dxEditText.java in Sources */ = {isa = PBXBuildFile; fileRef = DC84649015090C660065EB5D /* Cocos2dxEditText.java */; };
+		DC84649A15090C660065EB5D /* Cocos2dxGLSurfaceView.java in Sources */ = {isa = PBXBuildFile; fileRef = DC84649115090C660065EB5D /* Cocos2dxGLSurfaceView.java */; };
+		DC84649B15090C660065EB5D /* Cocos2dxMusic.java in Sources */ = {isa = PBXBuildFile; fileRef = DC84649215090C660065EB5D /* Cocos2dxMusic.java */; };
+		DC84649C15090C660065EB5D /* Cocos2dxRenderer.java in Sources */ = {isa = PBXBuildFile; fileRef = DC84649315090C660065EB5D /* Cocos2dxRenderer.java */; };
+		DC84649D15090C660065EB5D /* Cocos2dxSound.java in Sources */ = {isa = PBXBuildFile; fileRef = DC84649415090C660065EB5D /* Cocos2dxSound.java */; };
+		DC84649E15090C660065EB5D /* Cocos2dxTypefaces.java in Sources */ = {isa = PBXBuildFile; fileRef = DC84649515090C660065EB5D /* Cocos2dxTypefaces.java */; };
 		DC9C2C5F14EFED1B00800099 /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9C2C5C14EFED1B00800099 /* Player.png */; };
 		DC9C2C6014EFED1B00800099 /* Projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9C2C5D14EFED1B00800099 /* Projectile.png */; };
 		DC9C2C6114EFED1B00800099 /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9C2C5E14EFED1B00800099 /* Target.png */; };
@@ -442,10 +451,19 @@
 		DC2EF33414EF90F100B8676B /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		DC2EF33614EF90F100B8676B /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		DC2EF33714EF90F100B8676B /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
-		DC84646F1508FCD60065EB5D /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "background-music-aac.caf"; path = "Resources/background-music-aac.caf"; sourceTree = "<group>"; };
-		DC8464701508FCD60065EB5D /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "pew-pew-lei.caf"; path = "Resources/pew-pew-lei.caf"; sourceTree = "<group>"; };
+		DC84646F1508FCD60065EB5D /* background-music-aac.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "background-music-aac.mp3"; path = "Resources/background-music-aac.mp3"; sourceTree = "<group>"; };
+		DC8464701508FCD60065EB5D /* pew-pew-lei.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "pew-pew-lei.mp3"; path = "Resources/pew-pew-lei.mp3"; sourceTree = "<group>"; };
 		DC8464771508FE360065EB5D /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverScene.h; path = Classes/GameOverScene.h; sourceTree = "<group>"; };
-		DC8464781508FE360065EB5D /* GameOverScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; name = GameOverScene.cpp; path = Classes/GameOverScene.cpp; sourceTree = "<group>"; };
+		DC8464781508FE360065EB5D /* GameOverScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameOverScene.cpp; path = Classes/GameOverScene.cpp; sourceTree = "<group>"; };
+		DC84648D15090C660065EB5D /* Cocos2dxAccelerometer.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxAccelerometer.java; sourceTree = "<group>"; };
+		DC84648E15090C660065EB5D /* Cocos2dxActivity.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxActivity.java; sourceTree = "<group>"; };
+		DC84648F15090C660065EB5D /* Cocos2dxBitmap.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxBitmap.java; sourceTree = "<group>"; };
+		DC84649015090C660065EB5D /* Cocos2dxEditText.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxEditText.java; sourceTree = "<group>"; };
+		DC84649115090C660065EB5D /* Cocos2dxGLSurfaceView.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxGLSurfaceView.java; sourceTree = "<group>"; };
+		DC84649215090C660065EB5D /* Cocos2dxMusic.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxMusic.java; sourceTree = "<group>"; };
+		DC84649315090C660065EB5D /* Cocos2dxRenderer.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxRenderer.java; sourceTree = "<group>"; };
+		DC84649415090C660065EB5D /* Cocos2dxSound.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxSound.java; sourceTree = "<group>"; };
+		DC84649515090C660065EB5D /* Cocos2dxTypefaces.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Cocos2dxTypefaces.java; sourceTree = "<group>"; };
 		DC9C2C5C14EFED1B00800099 /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Player.png; path = Resources/Player.png; sourceTree = "<group>"; };
 		DC9C2C5D14EFED1B00800099 /* Projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Projectile.png; path = Resources/Projectile.png; sourceTree = "<group>"; };
 		DC9C2C5E14EFED1B00800099 /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Target.png; path = Resources/Target.png; sourceTree = "<group>"; };
@@ -474,6 +492,7 @@
 		DC234F6D14F3CCEF00B9E2D0 /* android */ = {
 			isa = PBXGroup;
 			children = (
+				DC84648B15090C660065EB5D /* cocos2dx */,
 				DCCC79D414F5A990001DE08B /* SimpleGame.java */,
 				DC234FBD14F3CCEF00B9E2D0 /* build_native.sh */,
 				DC234FC314F3CCEF00B9E2D0 /* jni */,
@@ -556,8 +575,8 @@
 		DC2EF18D14EF90ED00B8676B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DC84646F1508FCD60065EB5D /* background-music-aac.caf */,
-				DC8464701508FCD60065EB5D /* pew-pew-lei.caf */,
+				DC84646F1508FCD60065EB5D /* background-music-aac.mp3 */,
+				DC8464701508FCD60065EB5D /* pew-pew-lei.mp3 */,
 				DC9C2C5C14EFED1B00800099 /* Player.png */,
 				DC9C2C5D14EFED1B00800099 /* Projectile.png */,
 				DC9C2C5E14EFED1B00800099 /* Target.png */,
@@ -1099,6 +1118,31 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
+		DC84648B15090C660065EB5D /* cocos2dx */ = {
+			isa = PBXGroup;
+			children = (
+				DC84648C15090C660065EB5D /* lib */,
+			);
+			name = cocos2dx;
+			path = src/org/cocos2dx;
+			sourceTree = "<group>";
+		};
+		DC84648C15090C660065EB5D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DC84648D15090C660065EB5D /* Cocos2dxAccelerometer.java */,
+				DC84648E15090C660065EB5D /* Cocos2dxActivity.java */,
+				DC84648F15090C660065EB5D /* Cocos2dxBitmap.java */,
+				DC84649015090C660065EB5D /* Cocos2dxEditText.java */,
+				DC84649115090C660065EB5D /* Cocos2dxGLSurfaceView.java */,
+				DC84649215090C660065EB5D /* Cocos2dxMusic.java */,
+				DC84649315090C660065EB5D /* Cocos2dxRenderer.java */,
+				DC84649415090C660065EB5D /* Cocos2dxSound.java */,
+				DC84649515090C660065EB5D /* Cocos2dxTypefaces.java */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1170,8 +1214,8 @@
 				DC23504614F3CDF000B9E2D0 /* Android.mk in Resources */,
 				DC23504A14F3E31200B9E2D0 /* Android.mk in Resources */,
 				DC23505114F3E33900B9E2D0 /* Android.mk in Resources */,
-				DC8464711508FCD60065EB5D /* background-music-aac.caf in Resources */,
-				DC8464721508FCD60065EB5D /* pew-pew-lei.caf in Resources */,
+				DC8464711508FCD60065EB5D /* background-music-aac.mp3 in Resources */,
+				DC8464721508FCD60065EB5D /* pew-pew-lei.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1298,6 +1342,15 @@
 				DC2EF33814EF90F100B8676B /* HelloWorldScene.cpp in Sources */,
 				DCCC79D514F5A990001DE08B /* SimpleGame.java in Sources */,
 				DC8464791508FE360065EB5D /* GameOverScene.cpp in Sources */,
+				DC84649615090C660065EB5D /* Cocos2dxAccelerometer.java in Sources */,
+				DC84649715090C660065EB5D /* Cocos2dxActivity.java in Sources */,
+				DC84649815090C660065EB5D /* Cocos2dxBitmap.java in Sources */,
+				DC84649915090C660065EB5D /* Cocos2dxEditText.java in Sources */,
+				DC84649A15090C660065EB5D /* Cocos2dxGLSurfaceView.java in Sources */,
+				DC84649B15090C660065EB5D /* Cocos2dxMusic.java in Sources */,
+				DC84649C15090C660065EB5D /* Cocos2dxRenderer.java in Sources */,
+				DC84649D15090C660065EB5D /* Cocos2dxSound.java in Sources */,
+				DC84649E15090C660065EB5D /* Cocos2dxTypefaces.java in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
